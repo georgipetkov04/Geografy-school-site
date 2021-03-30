@@ -4,8 +4,6 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    
-
 }
 
 body {
@@ -49,8 +47,7 @@ padding: 30px 10%;
 }
 
 .nav__links li a:hover {
-    color: #202020;
-    
+    color: #202020;  
 }
 
 button{
@@ -103,6 +100,7 @@ button{
 
   p { 
     width: 1525px; 
+
     height: 500px; 
     background-color: rgb(255, 255, 255);
     padding: 350px;
