@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+body {
+  background-image: url('images/mpa.jpg');
+
+}
+        </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.png " alt="logo">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Начална Страница</a></li>
+                <li><a href="za_nas.html">За нас</a></li>
+                <li><a href="kontakti.html">Контакти</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Уроци</button>
+                    <div class="dropdown-content">
+                      <a href="urok1.html">Урок 1</a>
+                      <a href="urok2.html">Урок 2</a>
+                      <a href="urok3.html">Урок 3</a>
+                      <a href="urok4.html">Урок 4</a>
+                    </div>
+                    </div>
+                  </div>
+
+            </ul>
+        </nav>        
+    </header>
+
+
+     <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">Име и Фамилия</label>
+          <input type="text" id="fname" name="firstname" placeholder="Напишете Вашето Име и Фамилия">
+          
+      
+          <label for="lname">Имейл Адрес</label>
+          <input type="text" id="lname" name="lastname" placeholder="Напишете Вашият Имейл Адрес">
+      
+          <label for="country">Държава</label>
+          <select id="country" name="country">
+            <option value="Бъглария">Бъглария</option>
+            <option value="Турция">Турция</option>
+            <option value="Румъния">Румъния</option>
+            <option value="Гърция">Гърция</option>
+            <option value="Сърбия">Сърбия</option>
+            <option value="Македония">Македония</option>
+          </select>
+      
+          <label for="subject">Тема</label>
+          <textarea id="subject" name="subject" placeholder="Напишете темата" style="height:200px"></textarea>
+      
+          <input type="submit" value="Изпрати">
+          
+      
+        </form>
+      </div>
+</body>
+</html>

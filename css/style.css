@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+
+}
+
+body {
+    height: 100vh;
+
+    font-family: "Poppins", sans-serif;
+  }
+
+li, a, button {
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #edf0f1;
+text-decoration: none;
+
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav__links li a:hover {
+    color: #202020;
+    
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(81, 168, 218);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    font-family: "Montserrat", sans-serif;
+    display: none;
+    position: absolute;
+    background-color: #484848;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #24252a;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #24252a;}
+
+  p { 
+    width: 1525px; 
+    height: 500px; 
+    background-color: rgb(255, 255, 255);
+    padding: 350px;
+    margin: auto;
+    border-radius: 2%;
+    } 
+
+   
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  color: white;
+
+  
+}
+
+
+input[type=submit] {
+  background-color: #3CB371;
+  color: #24252a;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #2eb122;
+}
+
+
+.container {
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #24252a;
+  padding: 35px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+select[id=country] {
+  color: black;
+}
+
